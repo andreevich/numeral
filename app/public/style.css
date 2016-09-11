@@ -1,0 +1,49 @@
+.number {
+    border: 1px solid grey;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 5px 5px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.number.right-answer {
+    border: 2px solid green;
+    background: darkseagreen;
+}
+
+.number.bad-answer {
+    border: 2px solid red;
+    background: indianred;
+}
+
+input {
+    font-size: 30px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.question {
+    margin-top: 10px;
+}
+
+.question span {
+    font-weight: bold;
+}
+
+.answers {
+    max-height: 300px;
+    overflow: auto;
+    width: 300px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+li.right-answer {
+    color: green;
+    font-weight: bold;
+}
